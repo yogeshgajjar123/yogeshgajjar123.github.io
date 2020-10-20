@@ -130,7 +130,7 @@
                     <li>
                         Spearhead research on developing Signal Temporal (STL) monitors, and vision-based Timed Quality Temporal (TQTL) monitors for ROS to track, and quantify perception robustness.
                     <li>
-                        Integrate ROS object tracking, lane-line detection, and semantic segmentation architectures with AV software stack.                    </li>
+                        Integrate ROS multi-object tracking, lane-line detection, and semantic segmentation architectures with AV software stack.                    </li>
                 </ul>
                 <br>
                 <p>
@@ -149,6 +149,9 @@
                             Object detection using Yolov3 capable of detecting road objects.
                         </li>
                         <li>
+                            Deep Sort + Yolov3 Deep Learning based Multi-Object Tracking in ROS.
+                        </li>
+                        <li>
                             Semantic Segmentation using DeepLabV3+ (under progress)
                         </li>
                         <li>
@@ -157,9 +160,7 @@
                         <li>
                             ROS Navigation for autonomous navigation
                         </li>
-                        <li>
-                            Road Object tracking using Deep Learning method.
-                        </li>
+                        
                     </ul> 
                 </p>
             </div>
@@ -344,9 +345,37 @@
                             </li>
                         </ul>
                         <p>
-                            <strong>Stack</strong> - C+, ROS, Darknet, Python, Jetson TX2
+                            <strong>Stack</strong> - C++, ROS, Darknet, Python, Jetson TX2
                         </p>
                         <a href="https://www.youtube.com/watch?v=EjTc_iV5x2A&t=5s">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height="300px"; width="300px"/>    
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Multi-Object 2D Tracking in ROS using Yolov3 and Deep Sort</h3>
+                        <ul>
+                            <li>
+                                Developed a multi-object tracker for ROS which utilizes yolov3 object detection.    
+                            </li>
+                            <li>
+                                The Deep Sort tracker is pre-trained on Mars dataset and uses deep learning methods to incorporate 
+                                deep associations between frames. 
+                            </li>
+                            <li>
+                                Deployed the multi-object tracker on f1-tenth vehicle for a real time tracking of objects with 25fps. 
+                            </li>
+                        </ul>
+                        <p>
+                            <strong>Stack</strong> - ROS, Python, Jetson Xavier, TensorFlow, Yolov3 
+                        </p>
+                        <a href="https://github.com/yogeshgajjar/yolov3_deepsort_ros">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -573,22 +602,6 @@
 Stack - Python, DeepLabv3+, Jetson Xavier
                         </p>
                         <a href="https://bdd-data.berkeley.edu/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>2D Object Tracking using DeepSort algorithm for ROS (Under Progress)</h3>
-                        <p>
-                            Developing tracking algorithm to felicitate testing of Perception robustness using TQTL monitors.
-                        </p>
-                        <!-- <a href="">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
