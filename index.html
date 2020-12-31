@@ -327,6 +327,30 @@
                 
                 <div class="project shadow-large">
                     <div class="project-image">
+                        <img src="images/detection.gif" height="300px"; width="300px"/>    
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>3D LiDAR Obstacle Detection</h3>
+                        <ul>
+                            <li>
+                                Coded a LiDAR road obstacle detection pipeline on LiDAR point cloud data using C++ and PCL.  
+                            </li>
+                            <li>
+                                The pipeline includes own designed segmentation(RANSAC) and clustering(KDTree) method followed by adding a 3D bounding box around the obstacle.  
+                            </li>
+                        </ul>
+                        <p>
+                            <strong>Stack</strong> - C++, PCL, Point Cloud Data
+                        </p>
+                        <a href="https://github.com/yogeshgajjar/SFND_Lidar_Obstacle_Detection">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
                         <img src="images/yolov3_traffic.jpg" height="300px"; width="300px"/>    
                     </div>
                     <!-- End .project-image -->
@@ -362,7 +386,7 @@
                         <h3>Multi-Object 2D Tracking in ROS using Yolov3 and Deep Sort</h3>
                         <ul>
                             <li>
-                                Developed a multi-object tracker for ROS which utilizes yolov3 object detection.    
+                                Developed first open-source ROS wrapper for multi-object tracker which utilizes yolov3 object detection.    
                             </li>
                             <li>
                                 The Deep Sort tracker is pre-trained on Mars dataset and uses deep learning methods to incorporate 
